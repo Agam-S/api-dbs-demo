@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\singh\\OneDrive - Swinburne University\\CertIV\\PRG\\API\\API_DB_connection_demo\\API_DB_connection_demo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\singh\\OneDrive - Swinburne University\\CertIV\\PRG\\API\\API_DB_connection_demo\\API_DB_connection_demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\singh\\OneDrive - Swinburne University\\CertIV\\PRG\\API\\API_DB_connection_demo\\API_DB_connection_demo.csproj",
+        "projectName": "API_DB_connection_demo",
+        "projectPath": "C:\\Users\\singh\\OneDrive - Swinburne University\\CertIV\\PRG\\API\\API_DB_connection_demo\\API_DB_connection_demo.csproj",
+        "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\singh\\OneDrive - Swinburne University\\CertIV\\PRG\\API\\API_DB_connection_demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
